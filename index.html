@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <input id="firstComponent" type="number" class="item"> 
+            <select id="userChoice" class="item">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input id="secondComponent" type="number" class="item">
+        </section>
+        <section>
+            <button onClick="calculate()" class="item">подсчитать</button>
+        </section>
+        <section>
+            <textarea id="resultBox" class="item" readonly></textarea>
+        </section>
+    </main>
+</body>
+</html>
